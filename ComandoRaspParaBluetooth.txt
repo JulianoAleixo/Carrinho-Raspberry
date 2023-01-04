@@ -1,0 +1,4 @@
+Para que a rasp se conectasse com o celular, foi necessário dar esses dois comandos em seu terminal.
+
+sudo rfcomm bind /dev/rfcomm0 [seu endereço Bluetooth] 1
+sudo sdptool add SP
